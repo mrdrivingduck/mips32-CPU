@@ -14,7 +14,7 @@ Finished In : 2017.8
   * `src/controller` - The controller part of CPU
   * `src/Datapath` - The data path of CPU
 
-* `test` : Contains the testing file of `Instruction RAM` & `Data RAM`
+* `test` : Contains the testing files of `Instruction RAM` & `Data RAM`
   * `test/func_test` - Function test of 240,000 instructions.
   * `test/pref_test` - Performance test of 10 benchmark programs.
   * `test/memory_game` - A program to test the whole soc system.

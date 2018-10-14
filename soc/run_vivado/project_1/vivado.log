@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Tue Aug 15 11:55:11 2017
+# Process ID: 3824
+# Current directory: C:/Users/Jingtang Zhang/Desktop/func_test/soc/soc_lite_func_test_delay_ram/run_vivado/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6940 C:\Users\Jingtang Zhang\Desktop\func_test\soc\soc_lite_func_test_delay_ram\run_vivado\project_1\project_1.xpr
+# Log file: C:/Users/Jingtang Zhang/Desktop/func_test/soc/soc_lite_func_test_delay_ram/run_vivado/project_1/vivado.log
+# Journal file: C:/Users/Jingtang Zhang/Desktop/func_test/soc/soc_lite_func_test_delay_ram/run_vivado/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jingtang Zhang/Desktop/func_test/soc/soc_lite_func_test_delay_ram/run_vivado/project_1/project_1.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Jingtang Zhang/Desktop/func_test/soc/soc_lite_func_test_delay_ram/run_vivado/project_1'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram' generated file not found 'c:/Users/Jingtang Zhang/Desktop/func_test/soc/soc_lite_func_test_delay_ram/rtl/xilinx_ip/inst_ram/stats.txt'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 759.305 ; gain = 71.820
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 15 12:01:04 2017...

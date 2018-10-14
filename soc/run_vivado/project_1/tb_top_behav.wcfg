@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ahblite_axi_bridge_pkg" />
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="17639166666fs"></ZoomStartTime>
+      <ZoomEndTime time="18550166667fs"></ZoomEndTime>
+      <Cursor1Time time="18700000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/tb_top/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/ifetch/PC/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/if_ben" type="array">
+      <obj_property name="ElementShortName">if_ben[3:0]</obj_property>
+      <obj_property name="ObjectShortName">if_ben[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/if_wdata" type="array">
+      <obj_property name="ElementShortName">if_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_wdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/if_addr" type="array">
+      <obj_property name="ElementShortName">if_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_addr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/if_addr_ok" type="logic">
+      <obj_property name="ElementShortName">if_addr_ok</obj_property>
+      <obj_property name="ObjectShortName">if_addr_ok</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/if_data_ok" type="logic">
+      <obj_property name="ElementShortName">if_data_ok</obj_property>
+      <obj_property name="ObjectShortName">if_data_ok</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/if_rdata" type="array">
+      <obj_property name="ElementShortName">if_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_rdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/if_id_reg/ID_IN" type="array">
+      <obj_property name="ElementShortName">ID_IN[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_IN[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/id_exe_reg/EXE_IN" type="array">
+      <obj_property name="ElementShortName">EXE_IN[159:0]</obj_property>
+      <obj_property name="ObjectShortName">EXE_IN[159:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/exe_mem_reg/MEM_IN" type="array">
+      <obj_property name="ElementShortName">MEM_IN[127:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_IN[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/mem_wb_reg/WB_IN" type="array">
+      <obj_property name="ElementShortName">WB_IN[127:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_IN[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/exe/ALU/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/mem_ben" type="array">
+      <obj_property name="ElementShortName">mem_ben[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_ben[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/mem_wdata" type="array">
+      <obj_property name="ElementShortName">mem_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/mem_wr" type="logic">
+      <obj_property name="ElementShortName">mem_wr</obj_property>
+      <obj_property name="ObjectShortName">mem_wr</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/mem_addr_ok" type="logic">
+      <obj_property name="ElementShortName">mem_addr_ok</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_ok</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/mem_data_ok" type="logic">
+      <obj_property name="ElementShortName">mem_data_ok</obj_property>
+      <obj_property name="ObjectShortName">mem_data_ok</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/mem_rdata" type="array">
+      <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/wb/RFA3" type="array">
+      <obj_property name="ElementShortName">RFA3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RFA3[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/wb/RFWD" type="array">
+      <obj_property name="ElementShortName">RFWD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RFWD[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/id/REGFILE/wen" type="logic">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/wb/HI_OUT" type="array">
+      <obj_property name="ElementShortName">HI_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HI_OUT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/wb/LO_OUT" type="array">
+      <obj_property name="ElementShortName">LO_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LO_OUT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/wb/CAUSE_OUT" type="array">
+      <obj_property name="ElementShortName">CAUSE_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CAUSE_OUT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/wb/BADADDR_OUT" type="array">
+      <obj_property name="ElementShortName">BADADDR_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BADADDR_OUT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/wb/STATUS_OUT" type="array">
+      <obj_property name="ElementShortName">STATUS_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STATUS_OUT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/soc_lite/pipeline_cpu/wb/EPC_OUT" type="array">
+      <obj_property name="ElementShortName">EPC_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EPC_OUT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

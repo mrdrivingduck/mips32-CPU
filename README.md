@@ -96,7 +96,7 @@ Experiment box offered by _Loongson&copy;_, contains an FPGA of _Xilinx&copy; Ar
 | `MFC0`      | MFC0                    |
 | `MTC0`      | MTC0                    |
 
-#### Division of work
+### Division of work
 
 - _Mr Dk._ : Main part of _Datapath_
 - _ZongHua_ : _Controller_ & Instruction Fetch module of _Datapath_

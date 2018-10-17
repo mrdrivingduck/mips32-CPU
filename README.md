@@ -6,7 +6,7 @@ Finished In : 2017.8
 
 ---
 
-#### Directory
+### Directory
 
 * `soc` : Contains the _soc_ project runs on IDE -- _Xilinx&copy; Vivado 2017.1_.
 
@@ -19,11 +19,11 @@ Finished In : 2017.8
   * `test/pref_test` - Performance test of 10 benchmark programs.
   * `test/memory_game` - A program to test the whole soc system.
 
-#### Hardware Environment
+### Hardware Environment
 
 Experiment box offered by _Loongson&copy;_, contains an FPGA of _Xilinx&copy; Artex7_.
 
-#### About the CPU
+### About the CPU
 
 * Five-stage Pipeline
 * Single issue
@@ -34,7 +34,7 @@ Experiment box offered by _Loongson&copy;_, contains an FPGA of _Xilinx&copy; Ar
   * Finished 10 performance test
 * Implemented with several _Xilinx&copy; IP_
 
-#### Supporting Instructions
+### Supporting Instructions
 
 | Instruction | Format                  |
 | ----------- | ----------------------- |
@@ -98,8 +98,8 @@ Experiment box offered by _Loongson&copy;_, contains an FPGA of _Xilinx&copy; Ar
 
 #### Division of work
 
-- Mr Dk. : Main part of _Datapath_
-- ZongHua : _Controller_ & Instruction Fetch module of _Datapath_
+- _Mr Dk._ : Main part of _Datapath_
+- _ZongHua_ : _Controller_ & Instruction Fetch module of _Datapath_
 
 ---
 

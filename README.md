@@ -1,5 +1,7 @@
 # 32-bit mips Pipeline CPU
 
+🔌 A 32-bit MIPS CPU supporting 57 instructions implemented by Verilog HDL. 
+
 Author : Mr Dk. (Coop. with Zong Hua)
 
 Finished In : 2017.8

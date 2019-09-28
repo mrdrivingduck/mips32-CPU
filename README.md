@@ -1,25 +1,27 @@
-# 32-bit mips Pipeline CPU
+# mips-32 CPU
 
 🔌 A 32-bit MIPS CPU supporting 57 instructions implemented by Verilog HDL. 
 
-Author : Mr Dk. (Coop. with Zong Hua)
+Author : @[Mr Dk.](https://github.com/mrdrivingduck), @[zonghuaxiansheng](https://github.com/zonghuaxiansheng)
 
-Finished In : 2017.8
+Developed in: 2017/06 - 2017/08
+
+Developed at: _Nanjing University of Aeronautics and Astronautics (NUAA)_, for _[NSCSCC 2017](http://www.nscscc.org)_
 
 ---
 
 ### Directory
 
-* `soc` : Contains the _soc_ project runs on IDE -- _Xilinx&copy; Vivado 2017.1_.
+* `/soc` : Contains the _soc_ project runs on IDE -- _Xilinx&copy; Vivado 2017.1_.
 
-* `src` : Contains the HDL source code of CPU implemented by _Verilog_ HDL.
-  * `src/controller` - The controller part of CPU
-  * `src/Datapath` - The data path of CPU
+* `/src` : Contains the HDL source code of CPU implemented by _Verilog_ HDL.
+  * `/src/controller` - The controller part of CPU
+  * `/src/Datapath` - The data path of CPU
 
-* `test` : Contains the testing files of `Instruction RAM` & `Data RAM`
-  * `test/func_test` - Function test of 240,000 instructions.
-  * `test/pref_test` - Performance test of 10 benchmark programs.
-  * `test/memory_game` - A program to test the whole soc system.
+* `/test` : Contains the testing files of _Instruction RAM_ & _Data RAM_
+  * `/test/func_test` - Function test of 240,000 instructions.
+  * `/test/pref_test` - Performance test of 10 benchmark programs.
+  * `/test/memory_game` - A program to test the whole soc system.
 
 ### Hardware Environment
 
@@ -100,8 +102,8 @@ Experiment box offered by _Loongson&copy;_, contains an FPGA of _Xilinx&copy; Ar
 
 ### Division of work
 
-- _Mr Dk._ : Main part of _Datapath_
-- _ZongHua_ : _Controller_ & Instruction Fetch module of _Datapath_
+- @[Mr Dk.](https://github.com/mrdrivingduck) : Main part of _Datapath_
+- @[zonghuaxiansheng](https://github.com/zonghuaxiansheng) : _Controller_ & Instruction Fetch module of _Datapath_
 
 ---
 

@@ -4,9 +4,7 @@
 
 Author : @[Mr Dk.](https://github.com/mrdrivingduck), @[zonghuaxiansheng](https://github.com/zonghuaxiansheng)
 
-Developed in: 2017/06 - 2017/08
-
-Developed at: _Nanjing University of Aeronautics and Astronautics (NUAA)_, for _[NSCSCC 2017](http://www.nscscc.org)_
+Developed at: _Nanjing University of Aeronautics and Astronautics (NUAA)_, 2017/06 - 2017/08, for _[NSCSCC 2017](http://www.nscscc.org)_
 
 ---
 

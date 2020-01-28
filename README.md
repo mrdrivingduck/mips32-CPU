@@ -8,7 +8,7 @@ Developed at: _Nanjing University of Aeronautics and Astronautics (NUAA)_, 2017/
 
 ---
 
-### Directory
+## Directory
 
 * `/soc` : Contains the _soc_ project runs on IDE -- _Xilinx&copy; Vivado 2017.1_.
 
@@ -21,11 +21,11 @@ Developed at: _Nanjing University of Aeronautics and Astronautics (NUAA)_, 2017/
   * `/test/pref_test` - Performance test of 10 benchmark programs.
   * `/test/memory_game` - A program to test the whole soc system.
 
-### Hardware Environment
+## Hardware Environment
 
 Experiment box offered by _Loongson&copy;_, contains an FPGA of _Xilinx&copy; Artex7_.
 
-### About the CPU
+## About the CPU
 
 * Five-stage Pipeline
 * Single issue
@@ -36,7 +36,7 @@ Experiment box offered by _Loongson&copy;_, contains an FPGA of _Xilinx&copy; Ar
   * Finished 10 performance test
 * Implemented with several _Xilinx&copy; IP_
 
-### Supporting Instructions
+## Supporting Instructions
 
 | Instruction | Format                  |
 | ----------- | ----------------------- |
@@ -98,10 +98,14 @@ Experiment box offered by _Loongson&copy;_, contains an FPGA of _Xilinx&copy; Ar
 | `MFC0`      | MFC0                    |
 | `MTC0`      | MTC0                    |
 
-### Division of work
+## Division of work
 
 - @[Mr Dk.](https://github.com/mrdrivingduck) : Main part of _Datapath_
 - @[zonghuaxiansheng](https://github.com/zonghuaxiansheng) : _Controller_ & Instruction Fetch module of _Datapath_
+
+## License
+
+Copyright © 2017-2020, Jingtang Zhang, Hua Zong. ([MIT License](LICENSE))
 
 ---
 

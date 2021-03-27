@@ -1,27 +1,27 @@
 # mips-32 CPU
 
-🔌 A 32-bit MIPS CPU supporting 57 instructions for [NSCSCC (Loongson Cup)](http://www.nscscc.org/), Summer of 2017.
+🔌 A 32-bit MIPS CPU supporting 57 instructions for 1st [NSCSCC (Loongson Cup)](http://www.nscscc.org/), Summer of 2017.
 
-Author : @[Mr Dk.](https://github.com/mrdrivingduck), @[zonghuaxiansheng](https://github.com/zonghuaxiansheng)
+Author : [@Mr Dk.](https://github.com/mrdrivingduck), [@zonghuaxiansheng](https://github.com/zonghuaxiansheng)
 
 ---
 
 ## Directory
 
-* `/soc` : *SoC* project runs on IDE *Xilinx© Vivado 2017.1*.
+* `/soc`: *SoC* project runs on *Xilinx© Vivado 2017.1* IDE
 
-* `/src` : HDL source code of CPU implemented by Verilog HDL.
-  * `/src/controller` - The controller part of CPU
-  * `/src/Datapath` - The data path of CPU
+* `/src`: HDL source code of CPU implemented by *Verilog HDL*
+  * `/src/controller` - Controller part of CPU
+  * `/src/Datapath` - Data path of CPU
 
-* `/test` : Testing files on Instruction RAM & Data RAM
-  * `/test/func_test` - Function test of 240,000 instructions.
-  * `/test/pref_test` - Performance test of 10 benchmark programs.
-  * `/test/memory_game` - A program to test the whole soc system.
+* `/test`: Testing files on instruction RAM and data RAM
+  * `/test/func_test` - Function test of 240,000 instructions
+  * `/test/pref_test` - Performance test of 10 benchmark programs
+  * `/test/memory_game` - A program to test the whole *SoC* system
 
 ## Hardware Environment
 
-Experiment box offered by [*Loongson*](http://www.loongson.cn/index.html), contains an FPGA of *Xilinx© Artex7*.
+Experiment box offered by [*Loongson*](http://www.loongson.cn/index.html) with an FPGA of *Xilinx© Artex7*.
 
 ## About the CPU
 
@@ -30,8 +30,6 @@ Experiment box offered by [*Loongson*](http://www.loongson.cn/index.html), conta
 * Little-endian
 * Always in **kernel** mode
 * Support 57 *MIPS* instructions
-* Finished function test of 240,000 instructions
-* Finished 10 performance test
 * Integrated with several *Xilinx©* IP core
 
 ## Supporting Instructions
@@ -98,12 +96,12 @@ Experiment box offered by [*Loongson*](http://www.loongson.cn/index.html), conta
 
 ## Division of work
 
-- @[Mr Dk.](https://github.com/mrdrivingduck) : Main part of data path
-- @[zonghuaxiansheng](https://github.com/zonghuaxiansheng) : controller & Instruction fetch module
+* [@Mr Dk.](https://github.com/mrdrivingduck): Main part of data path
+* [@zonghuaxiansheng](https://github.com/zonghuaxiansheng): Controller & instruction fetching module
 
 ## License
 
-Copyright © 2017-2020, Jingtang Zhang, Hua Zong. ([MIT License](LICENSE))
+Copyright © 2017, Jingtang Zhang, Hua Zong. ([MIT License](LICENSE))
 
 ---
 

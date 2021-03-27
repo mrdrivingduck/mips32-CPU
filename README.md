@@ -9,11 +9,9 @@ Author : [@Mr Dk.](https://github.com/mrdrivingduck), [@zonghuaxiansheng](https:
 ## Directory
 
 * `/soc`: *SoC* project runs on *Xilinx© Vivado 2017.1* IDE
-
 * `/src`: HDL source code of CPU implemented by *Verilog HDL*
   * `/src/controller` - Controller part of CPU
   * `/src/Datapath` - Data path of CPU
-
 * `/test`: Testing files on instruction RAM and data RAM
   * `/test/func_test` - Function test of 240,000 instructions
   * `/test/pref_test` - Performance test of 10 benchmark programs

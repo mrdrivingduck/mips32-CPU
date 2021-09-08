@@ -2,20 +2,20 @@
 
 🔌 A 32-bit MIPS CPU supporting 57 instructions for 1st [NSCSCC (Loongson Cup)](http://www.nscscc.org/), Summer of 2017.
 
-Author : [@Mr Dk.](https://github.com/mrdrivingduck), [@zonghuaxiansheng](https://github.com/zonghuaxiansheng)
+Author: [@mrdrivingduck](https://github.com/mrdrivingduck) & [@zonghuaxiansheng](https://github.com/zonghuaxiansheng)
 
 ---
 
-## Directory
+## File Organization
 
-* `/soc`: *SoC* project runs on *Xilinx© Vivado 2017.1* IDE
-* `/src`: HDL source code of CPU implemented by *Verilog HDL*
-  * `/src/controller` - Controller part of CPU
-  * `/src/Datapath` - Data path of CPU
-* `/test`: Testing files on instruction RAM and data RAM
-  * `/test/func_test` - Function test of 240,000 instructions
-  * `/test/pref_test` - Performance test of 10 benchmark programs
-  * `/test/memory_game` - A program to test the whole *SoC* system
+- `/soc`: *SoC* project runs on *Xilinx© Vivado 2017.1* IDE
+- `/src`: HDL source code of CPU implemented by *Verilog HDL*
+  - `/src/controller`: controller part of CPU
+  - `/src/Datapath`: data path part of CPU
+- `/test`: testing files on instruction RAM and data RAM
+  - `/test/func_test`: function test of 240,000 instructions
+  - `/test/pref_test`: performance test of 10 benchmark programs
+  - `/test/memory_game`: a program to test the whole *SoC* system
 
 ## Hardware Environment
 
@@ -23,12 +23,12 @@ Experiment box offered by [*Loongson*](http://www.loongson.cn/index.html) with a
 
 ## About the CPU
 
-* Five-stage Pipeline
-* Single issue
-* Little-endian
-* Always in **kernel** mode
-* Support 57 *MIPS* instructions
-* Integrated with several *Xilinx©* IP core
+- Five-stage Pipeline
+- Single issue
+- Little-endian
+- Always in **kernel** mode
+- Support 57 *MIPS* instructions
+- Integrated with several *Xilinx©* IP core
 
 ## Supporting Instructions
 
@@ -92,14 +92,12 @@ Experiment box offered by [*Loongson*](http://www.loongson.cn/index.html) with a
 | `MFC0`      | MFC0                    |
 | `MTC0`      | MTC0                    |
 
-## Division of work
+## Division of Work
 
-* [@Mr Dk.](https://github.com/mrdrivingduck): Main part of data path
-* [@zonghuaxiansheng](https://github.com/zonghuaxiansheng): Controller & instruction fetching module
+- [@mrdrivingduck](https://github.com/mrdrivingduck): main part of data path
+- [@zonghuaxiansheng](https://github.com/zonghuaxiansheng): controller part & instruction fetching module
 
 ## License
 
 Copyright © 2017, Jingtang Zhang, Hua Zong. ([MIT License](LICENSE))
-
----
 
